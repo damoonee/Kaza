@@ -1,17 +1,18 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Home from './/pages/Home';
-import Logement from './/pages/Logement';
-import Error from './/pages/Error';
-import About from './/pages/About';
+import Home from './pages/Home';
+// import Logement from './pages/Logement';
+// import Error from './pages/Error';
+// import About from './pages/About';
 
-import Header from './/layout/Header';
-import Footer from './/layout/Footer';
+import Header from './components/Header';
+// import Footer from './components/Footer';
 
 import './index.css';
-const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const root = createRoot(document.getElementById('root'));
 
 root.render(
 
@@ -21,25 +22,16 @@ root.render(
       <Header />
 
       <Routes>
-        <Route path='/'>
-          <Home />
-        </Route>
+        <Route path='/' element={<Home />} />
 
-        <Route path='/logement'>
-          <Logement />
-        </Route>
+        {/* <Route path='/logement' element={<Logement />} />
 
-        <Route path='/about'>
-          <About />
-        </Route>
+        <Route path='/about' element={<About />} />
 
-        <Route path='*'>
-          <Error />
-        </Route>
-
+        <Route path='*' element={<Error />} /> */}
       </Routes>
 
-      <Footer />
+      {/* <Footer /> */}
 
     </Router>
   </React.StrictMode>
