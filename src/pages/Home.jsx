@@ -1,7 +1,7 @@
 import Banner from '../components/Banner'
 import Logement from '../components/LogementList'
 
-function App() {
+function Home() {
     return (
         <div>
             <Banner />
@@ -10,4 +10,4 @@ function App() {
     )
 }
 
-export default App;
+export default Home;
