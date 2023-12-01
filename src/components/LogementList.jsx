@@ -8,7 +8,7 @@ function LocationList() {
             <div className='logement_list'>
                 {logementList.map(({ id, cover, title}) =>
                     <article key={id} className='logement_content'>
-                        <Link to={`/location?id=${id}`}>
+                        <Link to={`/logement?id=${id}`}>
                             <div className='logement_list_content'></div>
                             <img className='logement_cover' src={cover} alt={`Logement ${title}`} />
                             <p className='logement_name'>{title}</p>

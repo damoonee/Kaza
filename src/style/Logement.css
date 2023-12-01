@@ -1,0 +1,91 @@
+.product {
+    width: 100%;
+    max-width: 1240px;
+    min-width: 250px;
+    margin: 20px auto;
+}
+
+.product_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.logement_title {
+    color: #FF6060;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.logement_location {
+    color: #FF6060;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; 
+}
+
+.collapse-fiche-container {
+    display: flex;
+    gap: 76px;
+}
+
+.photo_proprietaire {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+
+.description-info_titletags_tags {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 18px 0;
+    flex-direction: row;
+}
+
+.description-info_proprietaire {
+    display: flex;
+    flex-direction: column;
+}
+
+.description-info_proprietaire_nom-prop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nom_proprietaire {
+    color: #FF6060;
+    margin-right: 10px;
+    text-align: right;
+    width: 93px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.description-info_proprietaire_rate {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.list_collapse {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+}
+
+.etoile_grey {
+    width: 25px;
+}

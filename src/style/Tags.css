@@ -1,0 +1,19 @@
+.tag_container {
+    display: flex;
+}
+
+.tag_button {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #ff6060;
+    color: #ffffff;
+    height: 25px;
+    border-radius: 15px;
+    padding: 2px 10px 0 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
