@@ -76,7 +76,6 @@
 .description-info_proprietaire_rate {
     margin-top: 20px;
     display: flex;
-    align-items: center;
     justify-content: flex-end;
 }
 
@@ -88,4 +87,54 @@
 
 .etoile_grey {
     width: 25px;
+}
+
+@media (max-width: 767px) {
+    .logement_title {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .logement_location {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+    .collapse-fiche-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        margin: 20px 0 0 20px;
+    }
+
+    .description-info_titletags_tags {
+        margin-left: 20px;
+    }
+
+    .product_content {
+        display: block;
+    }
+
+    .description-info_proprietaire {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .product_description {
+        margin-left: 20px;
+    }
+
+    .description-info_proprietaire {
+        margin-right: 20px;
+        margin-top: 25px;
+    }
+
+    .collapse-fiche-container {
+        margin: 0 20px;
+    }
 }

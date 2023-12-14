@@ -1,6 +1,6 @@
 .collapse {
     width: 70%;
-	margin: 20px 0;
+	margin: 10px 0;
 }
 
 .collapse__visible {
@@ -27,6 +27,7 @@ h2 {
 	color: #ff6060;
 	background: #f7f7f7;
 	border-radius: 5px;
+    overflow: hidden;
 }
 
 .collapse__text {
@@ -64,4 +65,15 @@ h2 {
 
 .equipList {
 	list-style-type: none;
+}
+
+@media (max-width: 767px) {
+    .about-style {
+        width: 335px;
+        margin-top: 20px;
+    }
+
+    .collapse {
+        width: 335px;
+    }
 }

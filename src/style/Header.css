@@ -27,6 +27,37 @@ a {
     text-decoration: none;
 }
 
-.header_active {
-    text-decoration-line: underline;
+.active {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+
+    .header {
+        padding-top: 20px;
+    }
+    
+    .header_logo {
+        height: 47px;
+    }
+
+    .header_link {
+        gap: 10px;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header_logo {
+        margin-left: 20px;
+    }
+
+    .header_link {
+        margin-right: 20px;
+    }
 }
